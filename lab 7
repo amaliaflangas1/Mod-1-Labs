@@ -1,0 +1,89 @@
+// this function returns the difference of two numbers
+function subtract(a, b) {
+    return a - b
+}
+
+// this function returns the sum of two numbers
+function add(a, b) {
+    return a + b
+}
+
+// this function returns the result of dividing two numbers
+function divide(a, b) {
+    return a / b
+}
+
+// this function returns the result of multiplying two numbers
+function multiply(a, b) {
+    return a * b
+}
+
+// this function prints a hello message using the given name
+function sayHello(name) {
+    console.log("Hello " + name)
+}
+
+
+// Subtract tests
+if (subtract(10, 5) != 5) {
+    throw new Error("Subtract test failed")
+}
+
+if (subtract(0, 5) != -5) {
+    throw new Error("Subtract test failed")
+}
+
+if (subtract(2.5, 1) != 1.5) {
+    throw new Error("Subtract test failed")
+}
+
+
+// Add tests
+if (add(10, 5) != 15) {
+    throw new Error("Add test failed")
+}
+
+if (add(0, 5) != 5) {
+    throw new Error("Add test failed")
+}
+
+if (add(-2, 5) != 3) {
+    throw new Error("Add test failed")
+}
+
+
+// Divide tests
+if (divide(10, 5) != 2) {
+    throw new Error("Divide test failed")
+}
+
+if (divide(5, 2) != 2.5) {
+    throw new Error("Divide test failed")
+}
+
+if (divide(-10, 2) != -5) {
+    throw new Error("Divide test failed")
+}
+
+
+// Multiply tests
+if (multiply(10, 5) != 50) {
+    throw new Error("Multiply test failed")
+}
+
+if (multiply(0, 5) != 0) {
+    throw new Error("Multiply test failed")
+}
+
+if (multiply(-2, 5) != -10) {
+    throw new Error("Multiply test failed")
+}
+
+
+// SayHello tests
+// These tests check that the function runs with different names
+sayHello("Amalia")
+sayHello("Aleni")
+sayHello("123")
+
+console.log("All tests passed.")
