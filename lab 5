@@ -1,0 +1,10 @@
+let fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes"]
+
+fruits[1] = "Strawberry"
+fruits[4] = "Watermelon"
+
+fruits.unshift("Pineapple")
+
+fruits.pop()
+
+console.log(fruits)
